@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="app.css
+    "
+    />
+    <title>Museum of Cat</title>
+  </head>
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="#" class="navbar-brand">&nbsp;&nbsp;Cat Museum</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navLinks"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navLinks"
+        aria-label="Toggle navigation"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Album</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div
+            id="headingGroup"
+            class="text-white text-center d-none d-lg-block mt-5"
+          >
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CAT</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img1.jpg" alt="Cat" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-first">
+          <img src="img2.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 text-center blurb">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CAT</h2>
+              <img src="Cat-03.png" alt="" class="d-none d-lg-inline" />
+              <p class="lead">
+                The cat is a domestic species of small carnivorous mammal. It is
+                the only domesticated species in the family Felidae and is often
+                referred to as the domestic cat to distinguish it from the wild
+                members of the family.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CAT</h2>
+              <img src="Cat-03.png" alt="" class="d-none d-lg-inline" />
+              <p class="lead">
+                Cats conserve energy by sleeping more than most animals,
+                especially as they grow older. The daily duration of sleep
+                varies, usually between 12 and 16 hours, with 13 and 14 being
+                the average. Some cats can sleep as much as 20 hours.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img3.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-first">
+          <img src="img4.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 text-center blurb">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CAT</h2>
+              <img src="Cat-03.png" alt="" class="d-none d-lg-inline" />
+              <p class="lead">
+                Domestic cats use many vocalizations for communication,
+                including purring, trilling, hissing, growling/snarling,
+                grunting, and several different forms of meowing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!--script bundle from Bootstrap doc-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--script tag from Mateus answer-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--script from course #139-->
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $('#mainNavbar');
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </body>
+</html>
